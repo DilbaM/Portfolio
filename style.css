@@ -36,18 +36,19 @@ img {
 .margens__conteudo__titulo {
     font-size: 36px;
     font-family: 'Righteous', cursive;
-            
-    
 }
+
 .margens__conteudo__texto {
     font-size: 24px;
     font-family: 'Titillium Web', sans-serif;
 }   
+
 .margens__links {
     display: flex;
     justify-content: space-between;
     padding: 30px 0px;
 }
+
 .margens__links_link {
     background-color:#00FFEB;
     width: 280px;
@@ -58,5 +59,6 @@ img {
     color: #000000;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
-    text-decoration: none;    
+    text-decoration: none;
+    margin: 1%;    
 }

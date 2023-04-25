@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&family=Ysabeau:wght@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Titillium+Web:wght@300&family=Ysabeau:wght@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+.titulo {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Righteous', cursive;
+}
+.subtitulo {
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+}
+.listas{
+    padding: 40px 0px;
+}
+body{
+    height: 100vh;
+    background-color: #000000;
+    color: #F6F6F6;
+    box-sizing: border-box;width: 100%;border: solid #000000 10px;padding: 5px;
+}
+.dados{
+    font-size: 19px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.botoes{
+    text-align: center;
+    padding: 50px 0px;
+}
+.botoes__botao{
+    background-color:#00FFEB;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 15px;
+    padding: 10px 10px;
+    color: #000000;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    text-decoration: none;   
+}

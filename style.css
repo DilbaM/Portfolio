@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&family=Ysabeau:wght@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Titillium+Web:wght@300&family=Ysabeau:wght@1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    height: 100vh;
+    background-color: #000000;
+    color: #F6F6F6;
+    box-sizing: border-box;width: 100%;border: solid #000000 10px;padding: 5px;
+}
+.titulo {
+    color:#00FFEB;
+}
+img {
+    width: 30%;
+}
+
+.margens {
+    margin: 10%;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.margens__conteudo {
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.margens__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Righteous', cursive;
+            
+    
+}
+.margens__conteudo__texto {
+    font-size: 24px;
+    font-family: 'Titillium Web', sans-serif;
+}   
+.margens__links {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.margens__links_link {
+    background-color:#00FFEB;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 25px 0px;
+    color: #000000;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    text-decoration: none;    
+}

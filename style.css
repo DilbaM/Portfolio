@@ -18,8 +18,9 @@ body {
 .perfil {
     width: 30%;
 }
+
 .margens {
-    padding: 4% 5%;
+    padding: 6% 15%;
     display:flex;
     align-items: center;
     justify-content:space-between;
@@ -79,9 +80,14 @@ body {
 .rodape {
     background-color: #22D4FD;
     color:#000000;
-    padding: 30px 0px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-
+    padding: 24px 0px;
+    text-align: left;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+}
+.rodape__texto{
+    padding: 0.3%;
+}
+.imgrodape{
+    width: 1.5%;
 }

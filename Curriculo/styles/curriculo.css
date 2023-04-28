@@ -6,24 +6,38 @@
     margin: 0;
     padding: 0;    
 }
-.titulo{
-    text-align: center;
-    font-size: 36px;
+.cabecalho{
+    padding: 3% 0% 0% 15%;
+    background-color: #22D4FD;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 1%;
+}
+.cabecalho__menu__link{
     font-family: 'Righteous', cursive;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 0% 0.35%;
+    color: #000000;
+    font-weight: 600;
 }
 .subtitulo {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     font-family: 'Righteous', cursive;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }    
 body{
     height: 100vh;
     background-color: #000000;
     color: #F6F6F6;
-    box-sizing: border-box;width: 100%;border: solid #000000 10px;padding: 5px;
+    box-sizing: border-box;width: 100%;border: solid #000000;
 }
 .dados{
-    margin: 10%;
+    padding-top: 14%;
+    padding-bottom: 6%;
     display:flex;
     align-items: center;
     justify-content:space-between;
@@ -33,23 +47,25 @@ body{
 
 img {
   float: left;
-  margin-right: 40px;
+  margin-right: 4%;
   width: 25%;
 }
 .botoes{
     display: flex;
-    justify-content: space-between;
-    padding: 5px 0px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.35%;
 }
 .botoes__botao{
-    background-color:#00FFEB;
-    width: 280px;
+    display: flex;
+    justify-content: center;
+    width: 20%;
     text-align: center;
-    border-radius: 16px;
-    font-size: 15px;
-    padding: 10px 0px;
-    color: #000000;
+    box-shadow: 10px 10px #22D4FD;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #f6f6f6;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
-    text-decoration: none;   
+    text-decoration: none;
 }

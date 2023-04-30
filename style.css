@@ -8,7 +8,7 @@
     box-sizing: border-box;   
 }
 .cabecalho{
-    padding: 3% 0% 0% 20%;
+    padding: 3% 0% 0% 6%;
     background-color: #22D4FD;
 }
 .cabecalho__menu{
@@ -18,7 +18,7 @@
 .cabecalho__menu__link{
     font-family: 'Righteous', cursive;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 17px;
     padding: 0% 0.35%;
     color: #000000;
     font-weight: 600;
@@ -36,7 +36,7 @@ body {
 }
 
 .margens {
-    padding: 6% 18%;
+    padding: 5% 3%;
     display:flex;
     align-items: center;
     justify-content:space-between;

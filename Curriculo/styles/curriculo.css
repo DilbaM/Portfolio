@@ -4,20 +4,20 @@
 
 * {
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
-.cabecalho{
-    padding: 3% 0% 0% 15%;
+.cabecalho {
+    padding: 3% 0% 0% 6%;
     background-color: #22D4FD;
 }
-.cabecalho__menu{
+.cabecalho__menu {
     display: flex;
     gap: 1%;
 }
-.cabecalho__menu__link{
+.cabecalho__menu__link {
     font-family: 'Righteous', cursive;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 17px;
     padding: 0% 0.35%;
     color: #000000;
     font-weight: 600;
@@ -28,38 +28,51 @@
     font-family: 'Righteous', cursive;
     padding-top: 5%;
     padding-bottom: 2%;
-}    
-body{
+    padding-right: 40%;
+    padding-left: 6%;
+    display: flex;
+    align-items: center;
+}
+body {
     height: 100vh;
     background-color: #000000;
     color: #F6F6F6;
-    box-sizing: border-box;width: 100%;border: solid #000000;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #000000;
 }
-.dados{
-    padding-top: 14%;
+.dados {
+    padding-top: 5%;
     padding-bottom: 6%;
-    display:flex;
-    align-items: center;
-    justify-content:space-between;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
     font-size: 19px;
     font-family: 'Titillium Web', sans-serif;
 }
+.dados__item {
+    margin-bottom: 10px;
+}
 
-img {
-  float: left;
-  margin-right: 4%;
-  width: 25%;
+.dados__titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
 }
-.botoes{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0.35%;
-}
-.botoes__botao{
-    display: flex;
-    justify-content: center;
+.imgeu {
+    float: right;
+    margin-right: 6%;
     width: 20%;
+}
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4%;
+    padding-top: 5%;
+    width: 100%;
+}
+.botoes__botao {
+    display: flexbox;
+    width: 100%;
     text-align: center;
     box-shadow: 10px 10px #22D4FD;
     border-radius: 8px;
@@ -68,4 +81,23 @@ img {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
     text-decoration: none;
+    margin: 0 10px;
+}
+.botoes__botao:hover {
+    background-color: #272727;
+    font-size: larger;
+}
+.rodape {
+    background-color: #22D4FD;
+    padding: 4%;
+    color: #000000;
+    display: flexbox;
+    text-align: center;
+}
+.imgrodape {
+    width: 3%;
+}
+.rodapetexto {
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
 }

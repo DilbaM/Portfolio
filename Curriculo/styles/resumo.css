@@ -7,6 +7,22 @@
     padding: 0;
     
 }
+.cabecalho {
+    padding: 3% 0% 0% 6%;
+    background-color: #22D4FD;
+}
+.cabecalho__menu {
+    display: flex;
+    gap: 1%;
+}
+.cabecalho__menu__link {
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 0% 0.35%;
+    color: #000000;
+    font-weight: 600;
+}    
 body {
     background-color: #000000;
     color: #F6F6F6;
@@ -15,25 +31,51 @@ body {
     text-align: center;
     font-size: 36px;
     font-family: 'Righteous', cursive;
+    padding-top: 5%;
 }
 .dados{
-    font-size: 19px;
+    font-size: 20px;
     font-family: 'Titillium Web', sans-serif;
-    padding: 35px 200px;
+    padding-top: 2%;
+    padding-right: 6%;
+    padding-left: 6%;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: justify;    
 }
+
 .botoes{
     padding: 100px 0px;
     text-align: center;
 }
 .botoes__botao{
-    background-color:#00FFEB;
-    width: 280px;
+    display: flexbox;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 1%;
     text-align: center;
-    border-radius: 16px;
-    font-size: 15px;
-    padding: 10px 10px;
-    color: #000000;
+    box-shadow: 10px 10px #22D4FD;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #f6f6f6;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
-    text-decoration: none;   
+    text-decoration: none;
+}
+.botoes__botao:hover {
+    background-color: #272727;
+    font-size: larger;
+}
+.rodape {
+    background-color: #22D4FD;
+    padding: 4%;
+    color: #000000;
+    display: flexbox;
+    text-align: center;
+}
+.imgrodape {
+    width: 3%;
+}
+.rodapetexto {
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
 }

@@ -24,7 +24,7 @@
 .cabecalho__menu__link{
     font-family: 'Righteous', cursive;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 1.37rem;
     padding: 0% 0.35%;
     color: var(--preto);
     font-weight: 600;
@@ -55,13 +55,13 @@ body {
     
 }
 .margens__conteudo__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: 'Righteous', cursive;
     text-align: justify;
 }
 
 .margens__conteudo__texto {
-    font-size: 24px;
+    font-size: 1.25rem;
     font-family: 'Titillium Web', sans-serif;
     text-align: justify;
 }   
@@ -76,7 +76,7 @@ body {
 .links__subtitulo{
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding-top: 10%;
 }
 .margens__links_link {
@@ -87,7 +87,7 @@ body {
     text-align: center;
     box-shadow: 10px 20px var(--azul);
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--branco);
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
@@ -110,5 +110,5 @@ body {
 }
 .textorodape{
     font-family: 'Righteous', cursive;
-    font-size: 15px;
+    font-size: 0.93rem;
 }

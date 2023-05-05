@@ -127,6 +127,12 @@ body {
     .cabecalho__menu__link{
         color: var(--azul);
     }
+    .margens__conteudo__titulo {
+        font-size:medium;
+    }
+    .margens__conteudo__texto {
+        font-size: small;
+    }
     .margens__links_link{
         padding-right: 40%;
         padding-left: 40%;
@@ -134,5 +140,8 @@ body {
     }
     .margens__conteudo{
         gap: 10px;
+    }
+    .links__subtitulo{
+        font-size: medium;
     }
 }

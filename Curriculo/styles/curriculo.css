@@ -71,13 +71,14 @@ body {
 }
 .botoes {
     display: flex;
+    gap: 20px;
     justify-content: space-between;
     padding-bottom: 4%;
     padding-top: 5%;
     width: 100%;
 }
 .botoes__botao {
-    display: flexbox;
+    display: inline-block;
     width: 100%;
     text-align: center;
     box-shadow: 10px 10px var(--azul);
@@ -87,7 +88,8 @@ body {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
     text-decoration: none;
-    margin: 0 10px;
+    margin:0% 2%;
+    
 }
 .botoes__botao:hover {
     background-color: var(--cinza);
@@ -106,4 +108,10 @@ body {
 .rodapetexto {
     font-family: 'Righteous', cursive;
     font-size: 0.93rem;
+}
+@media (max-width: 900px ) {
+    .botoes {
+        flex-direction: column-reverse;
+    }
+
 }

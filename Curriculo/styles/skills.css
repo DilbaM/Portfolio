@@ -61,6 +61,7 @@ body{
 .botoes{
     padding: 100px 0px;
     text-align: center;
+    padding-bottom: 13%;
 }
 .botoes__botao{
     display: flexbox;

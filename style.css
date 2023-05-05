@@ -119,13 +119,20 @@ body {
     }
     .cabecalho {
         padding:5%;   
+        background-color: #000000;
     }
     .cabecalho__menu{
         justify-content: center;
+    }
+    .cabecalho__menu__link{
+        color: var(--azul);
     }
     .margens__links_link{
         padding-right: 40%;
         padding-left: 40%;
         box-shadow: 10px 10px var(--azul);
+    }
+    .margens__conteudo{
+        gap: 10px;
     }
 }

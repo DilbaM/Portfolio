@@ -112,9 +112,13 @@ body {
 @media (max-width: 900px ) {
     .cabecalho {
         padding:5%;   
+        background-color: #000000;
     }
     .cabecalho__menu{
         justify-content: center;
+    }
+    .cabecalho__menu__link{
+        color: var(--azul);
     }
     .botoes {
         flex-direction: column-reverse;

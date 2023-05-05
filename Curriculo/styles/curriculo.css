@@ -110,8 +110,13 @@ body {
     font-size: 0.93rem;
 }
 @media (max-width: 900px ) {
+    .cabecalho {
+        padding:5%;   
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
     .botoes {
         flex-direction: column-reverse;
     }
-
 }

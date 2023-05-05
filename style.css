@@ -117,4 +117,15 @@ body {
     .margens {
         flex-direction: column-reverse;
     }
+    .cabecalho {
+        padding:5%;   
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .margens__links_link{
+        padding-right: 40%;
+        padding-left: 40%;
+        box-shadow: 10px 10px var(--azul);
+    }
 }

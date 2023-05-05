@@ -83,7 +83,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 2%;
-    width: 378px;
+    width: 50%;
     text-align: center;
     box-shadow: 10px 20px var(--azul);
     border-radius: 8px;
@@ -111,4 +111,10 @@ body {
 .textorodape{
     font-family: 'Righteous', cursive;
     font-size: 0.93rem;
+}
+
+@media (max-width: 900px ) {
+    .margens {
+        flex-direction: column-reverse;
+    }
 }

@@ -116,6 +116,7 @@ body {
 @media (max-width: 900px ) {
     .margens {
         flex-direction: column-reverse;
+        padding: 2% 5%;
     }
     .cabecalho {
         padding:5%;   
@@ -126,6 +127,9 @@ body {
     }
     .cabecalho__menu__link{
         color: var(--azul);
+    }
+    .perfil{
+        padding-bottom: 5%;
     }
     .margens__conteudo__titulo {
         font-size:medium;
@@ -140,6 +144,7 @@ body {
     }
     .margens__conteudo{
         gap: 10px;
+        width: auto;
     }
     .links__subtitulo{
         font-size: medium;
